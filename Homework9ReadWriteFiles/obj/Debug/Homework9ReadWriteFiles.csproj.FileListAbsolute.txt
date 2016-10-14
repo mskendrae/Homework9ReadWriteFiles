@@ -1,2 +1,7 @@
 c:\users\wecancodeit\documents\visual studio 2015\Projects\Homework9ReadWriteFiles\Homework9ReadWriteFiles\bin\Debug\Homework9ReadWriteFiles.exe.config
 C:\Users\msken\Documents\Visual Studio 2015\Projects\Homework9ReadWriteFiles\Homework9ReadWriteFiles\bin\Debug\Homework9ReadWriteFiles.exe.config
+C:\Users\msken\Documents\Visual Studio 2015\Projects\Homework9ReadWriteFiles\Homework9ReadWriteFiles\bin\Debug\Homework9ReadWriteFiles.exe
+C:\Users\msken\Documents\Visual Studio 2015\Projects\Homework9ReadWriteFiles\Homework9ReadWriteFiles\bin\Debug\Homework9ReadWriteFiles.pdb
+C:\Users\msken\Documents\Visual Studio 2015\Projects\Homework9ReadWriteFiles\Homework9ReadWriteFiles\obj\Debug\Homework9ReadWriteFiles.csprojResolveAssemblyReference.cache
+C:\Users\msken\Documents\Visual Studio 2015\Projects\Homework9ReadWriteFiles\Homework9ReadWriteFiles\obj\Debug\Homework9ReadWriteFiles.exe
+C:\Users\msken\Documents\Visual Studio 2015\Projects\Homework9ReadWriteFiles\Homework9ReadWriteFiles\obj\Debug\Homework9ReadWriteFiles.pdb

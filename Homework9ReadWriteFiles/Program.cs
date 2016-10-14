@@ -27,8 +27,8 @@ namespace Homework9ReadWriteFiles
             int lineNumber = 0;
 
             //Setup of the read and write
-            StreamReader reader = new StreamReader("..\\Shakespeare.txt");
-           
+            StreamReader reader = new StreamReader("..\\..\\Shakespeare.txt");
+
 
             //First Choice 
 
@@ -60,33 +60,18 @@ namespace Homework9ReadWriteFiles
             }
             else if (userChoice == 3)
             {
-                 public char SwitchVowelsToUpperCase(char c)
-                   {
+                string line = reader.ReadLine();
+                while (line != null)
+                {
+                    //REPLACES LOWER CASE VOWEL TO UPPERCASE VOWEL              
+                    string output = line.Replace('a', 'A').Replace("e", "E").Replace('i', 'I').Replace("o", "O").Replace("u", "U");
+                    Console.WriteLine(output);
+                    line = reader.ReadLine();
+                }
+                reader.Close();
 
-                 switch (c)
-                    {
-                     case 'a': return 'A';
-                     case 'e': return 'E';
-                     case 'i': return 'I';
-                     case 'o': return 'O';
-                     case: 'u': return 'U';
-                     default: return c;
-                     }
-
-                     }
-
-                     string ProcessInput(string input)
-                           {
-                            var resultingChars = input.ToLower()
-                                        .Reverse()
-                                        .Select(c => (SwitchVowelsToUpperCase(c));
-                                         .ToArray();
-
-                      return new string(resultingChars);
-        }
-
-    }
-
+            }
+            Console.ReadLine();
 }//end main method
       }//end Homework9ReadWriteFilesclass
 }//end namespace
