@@ -44,7 +44,7 @@ namespace Homework9ReadWriteFiles
                 Console.ReadLine();
                 reader.Close();
             }
-            else if (userChoice == 2)
+            else if (userChoice == 2) //Second Choice
             {
                 string line = reader.ReadLine();
                 while (line != null)
@@ -58,12 +58,12 @@ namespace Homework9ReadWriteFiles
                 reader.Close();
 
             }
-            else if (userChoice == 3)
+            else if (userChoice == 3)  // choice
             {
                 string line = reader.ReadLine();
                 while (line != null)
                 {
-                    //REPLACES LOWER CASE VOWEL TO UPPERCASE VOWEL              
+                    //converts vowels
                     string output = line.Replace('a', 'A').Replace("e", "E").Replace('i', 'I').Replace("o", "O").Replace("u", "U");
                     Console.WriteLine(output);
                     line = reader.ReadLine();
